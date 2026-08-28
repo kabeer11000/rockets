@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+*.egg-info/
+
+# Data (large files - use Git LFS or external storage)
+static-tests/*/camera/*.mp4
+static-tests/*/camera/*.avi
+flight-data/*/camera/*.mp4
+*.h5
+*.mat
+
+# OpenRocket
+*.ork
+*.rkt
+
+# Build / IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment
+.env
